@@ -1,0 +1,42 @@
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 1rem;
+  transition: background-color .3s ease;
+}
+
+.bg-pink {
+  background: lightpink;
+}
+
+ul {
+  list-style-type: none;
+  padding: 2rem;
+  margin: 0;
+  border: 1px solid #cdcdcd;
+  width: 300px;
+  background: lightgreen;
+}
+
+li {
+  padding: .35em .7em;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: white;
+}
+li:not(:last-child) {
+  border-bottom: 1px solid #efefef;
+}
+.error-message {
+  color: red;
+  transition: opacity 1s ease;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
+.is-hidden {
+  opacity: 0;
+}
